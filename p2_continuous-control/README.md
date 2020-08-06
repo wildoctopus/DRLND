@@ -1,4 +1,4 @@
-Project 3: Collaboration and Competition
+Project 2: Continous Control
 
 Project Discription:
 For this project, we have to work with the Reacher environment.
