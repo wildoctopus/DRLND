@@ -3,7 +3,7 @@
 
 ## Project Discription
 
-For this project, our aim is to train an agent to navigate (and collect bananas!) in a Banana Collector environment (similar to unity Banana collector Environment) provided by Udacity.
+For this project, our aim is to train an agent to navigate (and collect bananas!) in a Banana Collector environment (similar to unity Banana collector Environment) provided by Udacity.<br>
 ![alt text](https://github.com/wildoctopus/DRLND/blob/master/P1_Navigation/banana_collector_env.gif)
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the final goal of our agent is to collect as many yellow bananas as possible while avoiding blue bananas.
@@ -26,10 +26,10 @@ Step 1: Clone this repo in your local machine.
 Step 2: Download the Unity Environment
 
 For this project, you will not need to install Unity - directly download the prebuilt unity environment from one of the links below. You need only select the environment that matches your operating system:
-Linux:[click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+Linux:[click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)<br>
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)<br>
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)<br>
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)<br>
 
 Then, place the file in the p1_navigation/ folder in your cloned repository, and unzip (or decompress) the file.
 
