@@ -1,14 +1,16 @@
-Task Discription: 
+### Udacity DRLND Navigation project
+
+## Task Discription: 
 
 The Goal of this excercise is to train an agent to collect as many yellow bananas as possible while avoiding the blue ones in Udacity Banana Collector environemnt. For collecting the correct banana a reward of +1 is given while for wrong one reward of -1 will be awarded to the agent. So agent has to lear this smartly and maximize this cummulative reward. 
 
 
-Learning Algorithm
+## Learning Algorithm
 
 For this project a Deep Q-Network was chosen as a learning algorithm as taught in class excercise, with a simple neural network model with just 2 hidden layers working on the 37 states known to the agent. For more on DQN please check this paper - 
 
 
-Network Model :
+## Network Model :
 For this project basic neural Architecture (that is taught in class) has been used. It can be found in the model.py file of the source code. The network consists of 3 fully connected layers with 64, 64, and 4 nodes respectively. 
 
         fc1_units=64 
