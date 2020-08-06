@@ -26,11 +26,10 @@ Step 1: Clone this repo in your local machine.
 Step 2: Download the Unity Environment
 
 For this project, you will not need to install Unity - directly download the prebuilt unity environment from one of the links below. You need only select the environment that matches your operating system:
-
-    Linux: [click here!](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-    Mac OSX: [click here!](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-    Windows (32-bit): [click here!](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-    Windows (64-bit): [click here!](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+Linux:[click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 Then, place the file in the p1_navigation/ folder in your cloned repository, and unzip (or decompress) the file.
 
@@ -38,4 +37,4 @@ Then, place the file in the p1_navigation/ folder in your cloned repository, and
 ## Instructions
 
 Follow the instructions provided in Navigation.ipynb to get started with training your own agent!
-For information on how the algorithm works and future improvements that can be done,  check Report.md file. 
+For information on how the algorithm works and future improvements that can be done,  check [Report.md](Report.md) file. 
