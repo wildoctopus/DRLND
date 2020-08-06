@@ -38,3 +38,8 @@ With the chosen network model, dqn agent and the above hyper-parameters configur
 It can be seen in the above image.
 
 ### Ideas for Future Work
+Since DQN was introduced, some improvements have been proposed to overcome the issues coming with DQN and to improve the agent learning. We can apply those as stated below:
+*fixed Q-targets
+*double DQNs
+*dueling DQN (aka DDQN)
+*Prioritized Experience Replay (aka PER)
