@@ -37,4 +37,4 @@ The parameter action_size = 4.
 With the chosen network model, dqn agent and the above hyper-parameters configurations, the agent was able to achieve an average score of 13.0 in 490 episodes.
 It can be seen in the above image.
 
-### Future Improvement
+### Ideas for Future Work
