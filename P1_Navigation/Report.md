@@ -1,4 +1,4 @@
-## Udacity DRLND Navigation project
+## Udacity DRLND Navigation project report
 
 ### Task Discription: 
 
@@ -7,11 +7,11 @@ The Goal of this excercise is to train an agent to collect as many yellow banana
 
 ### Learning Algorithm
 
-For this project a Deep Q-Network was chosen as a learning algorithm as taught in class excercise, with a simple neural network model with just 2 hidden layers working on the 37 states known to the agent. For more on DQN please check this paper - 
+For this project a Deep Q-Network was chosen as a learning algorithm as taught in class excercise, with a simple neural network model with just 2 hidden layers working on the 37 states known to the agent. For more on DQN please check this paper - [Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
 
 
 ### Network Model :
-For this project basic neural Architecture (that is taught in class) has been used. It can be found in the model.py file of the source code. The network consists of 3 fully connected layers with 64, 64, and 4 nodes respectively. 
+For this project basic neural Architecture (that is taught in class) has been used. It can be found in the [model.py](model.py) file of the source code. The network consists of 3 fully connected layers with 64, 64, and 4 nodes respectively. 
 
         fc1_units=64 
         fc2_units=64
@@ -36,3 +36,5 @@ The parameter action_size = 4.
 
 With the chosen network model, dqn agent and the above hyper-parameters configurations, the agent was able to achieve an average score of 13.0 in 490 episodes.
 It can be seen in the above image.
+
+### Future Improvement
