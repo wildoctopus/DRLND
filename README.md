@@ -1,4 +1,4 @@
-# DRLND
+# Udacity Deep Reinforcement Learning NanoDegree
 Repo for Projects in Deep Reinforcement Learning Nanodegree program.
 
 There are total of 3 projects in this nano degree course, which covers all the concepts for Reinforcement Learning. Even its suggest the recent papers and advancements in this field. 
