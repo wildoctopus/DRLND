@@ -38,8 +38,11 @@ With the chosen network model, dqn agent and the above hyper-parameters configur
 It can be seen in the above image.
 
 ### Ideas for Future Work
+As discussed in the course, one enhancement can be done by directly training the agent form the observed raw pixles (CNN can be used for that) instead of using Environment's internal states.
+
 Since DQN was introduced, some improvements have been proposed to overcome the issues coming with DQN and to improve the agent learning. We can apply those as stated below:
-*fixed Q-targets
-*double DQNs
-*dueling DQN (aka DDQN)
-*Prioritized Experience Replay (aka PER)
+* fixed Q-targets
+* double DQNs
+* dueling DQN (aka DDQN)
+* Prioritized Experience Replay (aka PER)
+
