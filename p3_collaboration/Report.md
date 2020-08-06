@@ -108,5 +108,5 @@ Below section shows the hyperparameters values kept for this project.(one can tw
 
 
 ### Future Improvements :
-Wile looking for different sources and reffering to few papers found that one can go with [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) for this project. 
+While looking for different sources and reffering to few papers found that one can go with [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) for this project. 
 Second, one can try to prioritized experience replay to improve the learning process.
