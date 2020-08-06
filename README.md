@@ -5,5 +5,6 @@ There are total of 3 projects in this nano degree course, which covers all the c
 
 
 
-#References
+# References
+
 The problem description in all the projeccts has been taken from Udacity DRLND course - https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893
