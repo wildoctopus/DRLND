@@ -4,7 +4,7 @@
 For this project, we have to work with the Reacher environment. 
 
 ![](https://github.com/wildoctopus/DRLND/blob/master/p2_continuous-control/reacher.gif) <br>
-Unity ML-Agents Reacher Environment
+*Unity ML-Agents Reacher Environment*
 
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of our agent is to maintain its position at the target location for as many time steps as possible.
