@@ -38,7 +38,7 @@ Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/
 Then, place the file in the p2_continous-control/ folder in your cloned repository, and unzip (or decompress) the file.
 
 ## Instructions:
-Follow the instructions provided in Continous_Control.ipynb to get started with training your own agent! For information on how the algorithm works and future improvements that can be done, check Report.md file.
+Follow the instructions provided in [Continous_Control.ipynb](Continous_Control.ipynb) to get started with training your own agent! For information on how the algorithm works and future improvements that can be done, check Report.md file.
 
 
 
