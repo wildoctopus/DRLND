@@ -1,8 +1,8 @@
-Udacity DRLND Collaboration and Competition project Report
+# Udacity DRLND Collaboration and Competition project Report
 
-Task Description:
+## Task Description:
 
-Examine the State and Action Spaces:
+### Examine the State and Action Spaces:
 The environment have two agents playing tenis, where a agent is rewarded with a reward of +0.1 if it hits the ball over the net in oponent side otherwise a receives a reward of -0.1. 
 So the goal of the agent is to score as much as possible keeping the ball in play. 
 The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. 
@@ -37,7 +37,7 @@ Below sections shows the environment info and how a Random state for first agent
           
 
 
-Learning Algorithm :
+## Learning Algorithm :
 
 For this project, DDPG algorithm has been used to initialized the two agents (see in below section), where a parameter "memory" has been passed to other agent for shared replay buffer.
 Model and Networks has been kept similar to second project(Continuous Control) with some tweaking in Hyper-parameters to acheive the results in decent number of episodes.
@@ -46,7 +46,7 @@ The important part is the "memory" parameter passed as a input to second Agent ,
 For Model, as just stated above, it has been kept close to previous project, that is 3 fully connected layers has been used with alternate batch normalization layer to improve the learning speed.
 Below section shows the hyperparameters values kept for this project.(one can tweak this to see the improvements)
 
-Hyper-parameters and Agents initializations:
+## Hyper-parameters and Agents initializations:
 
                           BUFFER_SIZE = int(1e6)  # replay buffer size
                           BATCH_SIZE = 512        # minibatch size
@@ -59,7 +59,7 @@ Hyper-parameters and Agents initializations:
                           agent1 = Agent(state_size=state_size, action_size=action_size, random_seed=13)
                           agent2 = Agent(state_size=state_size, action_size=action_size, random_seed=13, memory=agent1.memory)
 
-Reward Plot :
+## Reward Plot :
                           scores = ddpg()
 
                           Unity Academy name: Academy
@@ -104,9 +104,9 @@ Reward Plot :
 
                           Environment solved in 1298 episodes!	Average Score: 0.55
 
-[insert image]
+![alt text](https://github.com/wildoctopus/DRLND/blob/master/p3_collaboration/collaboration_reward_plot.png)
 
 
-Future Improvements :
-Wile looking for different sources and reffering to few papers found that one can go with Proximal Policy Optimization (PPO) [link] for this project. 
+## Future Improvements :
+Wile looking for different sources and reffering to few papers found that one can go with [Proximal Policy Optimization (PPO)](https://arxiv.org/abs/1707.06347) for this project. 
 Second, one can try to prioritized experience replay to improve the learning process.
