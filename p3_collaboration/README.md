@@ -32,4 +32,4 @@ Then, place the file in the p3_collaboration/ folder in your cloned repository, 
 
 ## Instructions:
 
-Follow the instructions provided in Navigation.ipynb to get started with training your own agent! For information on how the algorithm works and future improvements that can be done, check [Report.md](Report.md) file.
+Follow the instructions provided in [Navigation.ipynb](Navigation.ipynb) to get started with training your own agent! For information on how the algorithm works and future improvements that can be done, check [Report.md](Report.md) file.
