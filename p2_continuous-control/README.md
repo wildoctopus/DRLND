@@ -1,7 +1,8 @@
 # Project 2: Continous Control
 
 ## Project Discription:
-For this project, we have to work with the Reacher environment.
+For this project, we have to work with the Reacher environment. 
+
 ![](https://github.com/wildoctopus/DRLND/blob/master/p2_continuous-control/reacher.gif) <br>
 caption - Unity ML-Agents Reacher Environment
 
