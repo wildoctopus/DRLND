@@ -40,3 +40,9 @@ Then, place the file in the p2_continous-control/ folder in your cloned reposito
 
 Instructions:
 Follow the instructions provided in Continous_Control.ipynb to get started with training your own agent! For information on how the algorithm works and future improvements that can be done, check Report.md file.
+
+
+
+References :
+
+The problem description has been taken from Udacity DRLND course - https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893
