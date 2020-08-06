@@ -31,7 +31,7 @@ For this project, you will not need to install Unity - directly download the pre
     Windows (32-bit): click here
     Windows (64-bit): click here
 
-Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+Then, place the file in the p1_navigation/ folder in your cloned repository, and unzip (or decompress) the file.
 
 
 Instructions
