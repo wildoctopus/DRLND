@@ -1,11 +1,11 @@
-Udacity DRLND Continous Control project Report
+# Udacity DRLND Continous Control project Report
 
-Task Description:
+## Task Description:
 
 For this project, we have to work with the Reacher environment, where a double-jointed arm is trained to reach to a target location. Now a reward of +0.1 is given to the agent if its hand is in the goal position.
 Thus, the goal of our agent is to maintain its position at the target location for as many time steps as possible. Now as the task is episodic, so in order to solve the environment, our agent must get an average score of +30 over 100 consecutive episodes.
 
-Examine the State and Action Spaces: 
+### Examine the State and Action Spaces: 
 Below code cell and output gives information about the Environment and shows how random initialization of state looks like for first agent. 
 
                 # reset the environment
@@ -41,14 +41,14 @@ Below code cell and output gives information about the Environment and shows how
 
 
 
-Learning Algorithm :
-To solve this problem i have used  Deep Deterministic Policy Gradient (DDPG) code explained in the course lecture. For more info, please see the paper [inser link for DDPG]. 
+## Learning Algorithm :
+To solve this problem i have used  Deep Deterministic Policy Gradient (DDPG) code explained in the course lecture. For more info, please see the paper [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971). 
 The model used in this have three fully connected layers for Actor and Critic, with alternative batch normalization layer. Ornstein-Uhlenbeck noise has also been used with the default value provided in the paper. 
-For complete model structure please see model.py[link] in this repo. 
+For complete model structure please see [model.py](model.py) in this repo. 
 Below is the hyperparameters configuration, which helped me in acheving the required score in just 110 episode. 
 
 
-Hyper-parameters and Agents initializations:
+## Hyper-parameters and Agents initializations:
 
                   BUFFER_SIZE = int(1e5)  # replay buffer size
                   BATCH_SIZE = 128        # minibatch size
@@ -61,11 +61,12 @@ Hyper-parameters and Agents initializations:
                   agent = Agent(state_size=state_size, action_size=action_size, random_seed=11)
 With the above hyperparameter tuning , i got a good result that can be seen in below section. 
 
-Reward Plot :
-[insert image continuos_reward_plot.png]
+## Reward Plot :
+![](https://github.com/wildoctopus/DRLND/blob/master/p2_continuous-control/continous_reward_plot.png) <br>
 It can be seen from the figure that Environment got solved in 110 episode with an avarage score of 31.97, which is a good result, just by tweaking the hyperparameters.
 
-Future Improvements :
+## Future Improvements :
 
-While looking for different sources found that one can go with Proximal Policy Optimization (PPO)(https://www.researchgate.net/publication/330105099_Learning_Continuous_Control_through_Proximal_Policy_Optimization_for_Mobile_Robot_Navigation)  for this project. 
+While looking for different sources found that one can go with [Proximal Policy Optimization (PPO)](https://www.researchgate.net/publication/330105099_Learning_Continuous_Control_through_Proximal_Policy_Optimization_for_Mobile_Robot_Navigation) for this project. 
+
 Second, I would like to check D4PG and Prioritized experience replay to see how it improves the learning process.
